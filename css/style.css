@@ -65,17 +65,18 @@ header {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 52px;
+  line-height: 52px;
+  color: rgb(180, 180, 180);
+  padding-bottom: 10px;
+}
+
 .shrek {
   padding-top: 85px;
   background: #000000;
   padding-bottom: 25px;
   padding-left: 20px;
-}
-.shrek h2 {
-  font-size: 52px;
-  line-height: 52px;
-  color: rgb(180, 180, 180);
-  padding-bottom: 10px;
 }
 .shrek p {
   font-size: 28px;
@@ -101,6 +102,13 @@ header {
 }
 .shrek .block img {
   display: block;
+}
+
+.moose {
+  padding-top: 20px;
+}
+.moose h2 {
+  color: #312e2e;
 }
 
 @media (max-width: 1200px) {
@@ -135,11 +143,11 @@ header {
   .block-img-second {
     display: none;
   }
-  .shrek h2 {
-    font-size: 40px;
-  }
   .shrek p {
     font-size: 22px;
+  }
+  h2 {
+    font-size: 40px;
   }
 }
 @media (max-width: 767px) {
@@ -219,7 +227,7 @@ header {
   .shrek-text {
     text-align: center;
   }
-  .shrek h2 {
+  h2 {
     font-size: 30px;
     line-height: 1;
   }
